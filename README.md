@@ -10,7 +10,8 @@ Bojan Kiselichki
 Во продолжение е прикажан Control Flow Graph за функцијата searchBookByTitle.
 
 
-<img width="651" height="912" alt="SearchBookByTitle drawio" src="https://github.com/user-attachments/assets/9b6add0f-8f0e-48a2-b52c-7b8095552891" />
+<img width="651" height="912" alt="SearchBookByTitle drawio" src="https://github.com/user-attachments/assets/d7b80795-f01b-45df-b256-08e0eddc516c" />
+
 
 
 
@@ -20,7 +21,8 @@ Bojan Kiselichki
 
 Во продолжение е прикажан Control Flow Graph за функцијата borrowBook.
 
-<img width="582" height="1072" alt="BorrowBook" src="https://github.com/user-attachments/assets/84385a81-9523-46bb-8d2d-7b52b2d43f0f" />
+<img width="582" height="1072" alt="BorrowBook" src="https://github.com/user-attachments/assets/b0406044-4899-4d45-a7ca-c513a3f58f85" />
+
 ---
 
 # Cyclomatic Complexity
