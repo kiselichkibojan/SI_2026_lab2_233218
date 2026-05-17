@@ -85,8 +85,37 @@ CC = 6 + 1 = 7
 ## Тест случаи за searchBookByTitle
 
 За исполнување на Every Statement критериумот потребни се минимум 3 тест случаи.
+test1 - searchBookByTitle("Clean Code")
+test2 - searchBookByTitle("Unknown")
+test3 - searchBookByTitle("")
 
-### Тест случај 1
 
-```java
-List<Book> result = library.searchBookByTitle("Clean Code");
+За исполнување на Every Branch потребни се минимум 4 тест случаи.
+| Branch            | test1 | test2 | test3 | test4 |
+| ----------------- | ----- | ----- | ----- | ----- |
+| invalid input     | *     |       |       |       |
+| successful borrow |       | *     |       |       |
+| already borrowed  |       |       | *     |       |
+| not found         |       |       |       | *     |
+
+
+
+За исполнување на Multiple Condition потребни се минимум 4 тест случаи.
+
+
+| Комбинација | Тест                         |
+| ----------- | ---------------------------- |
+| TT          | borrowBook("", "")           |
+| TF          | borrowBook("", "Author")     |
+| FT          | borrowBook("Book", "")       |
+| FF          | borrowBook("Book", "Author") |
+
+
+| Комбинација | Тест                            |
+| ----------- | ------------------------------- |
+| TT          | searchBookByTitle("Clean Code") |
+| TF          | borrowed Clean Code             |
+| FT          | searchBookByTitle("Python")     |
+| FF          | borrowed Java + search Python   |
+
+
